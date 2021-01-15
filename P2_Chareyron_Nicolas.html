@@ -6,33 +6,87 @@
 </head>
 <body>
     <header>
-
         <div id="logo_menuvav">
-            
             <P><img src="images/Reservia@3x.png" alt="logo_Reservia" /></P>
-
             <nav id="menu">
                 <p><a href="#Hébergements">Hébergements</a></p>
                 <p><a href="#Activités">Activités</a></p>
                 <p><a href="page_inscription.html">S'inscrire</a></p> 
                 <!-- le fichier page_inscription.html n'est pas disponible pour le moment-->  
             </nav>
-
         </div>
-
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-
         <h2>En plein centre ville ou en pleine nature</h2>
 
-        <form>
-            
+        <form method="post" action="rechercher.php"> <!-- le fichier recherche n'est pas disponible pour le moment-->
             <div id:"rechercher">
+                <p><img src="images/pointeur.png" alt="icone_pointeur"></p>
+                <p><input type="text" name="rechercher" id="rechercher" value="Marseille,France"></p>
+                <p><input type="submit" value="Rechercher"></p>
+            </div>
+        </form>
+
+    <section id="partie_centrale">
+
+        <article id="Hebergement_a_marseille">
+            <h1>Hébergements à Marseille</h1>
+
+            <div>
+                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="auberge la cannebière">
+                <h2>Auberge la Cannebière</h2>
+                <p>Nuit à partir de <strong>25 euros</strong></p>
+                <img src="images/4 étoiles.png" alt="4étoiles">
 
             </div>
 
+            <div>
+                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+                <h2>Hôtel du port</h2>
+                <p>Nuit à partir de 52 <strong>euros</strong> </p>
+                <img src="images/5 étoiles.png" alt="5étoiles">
+
+            </div>
+
+                        <div>
+                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
+                <h2>Hôtel Les mouettes</h2>
+                <p>Nuit à partir de 76 <strong>euros</strong> </p>
+                <img src="images/4 étoiles.png" alt="4étoiles">
+
+            </div>
+
+        </div>
+
+        <div>
+                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
+                <h2>Hôtel de la mer</h2>
+                <p>Nuit à partir de 46 <strong>euros</strong> </p>
+                <img src="images/3 étoiles.png" alt="3étoiles">
+
+        </div>
+
+        <div>
+            <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
+            <h2>Auberge Le Panier</h2>
+            <p>Nuit à partir de <strong>23 euros</strong></p>
+            <img src="images/4 étoiles.png" alt="4étoiles">
+
+        </div>
 
 
-        </form>
+        <div>
+            <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
+            <h2>Hôtel chez Amina</h2>
+            <p>Nuit à partir de 96 <strong>euros</strong></p>
+            <img src="images/5 étoiles.png" alt="5étoiles">
+
+        </div>
+        </article>
+
+
+
+
+    </section>
 
 
         
