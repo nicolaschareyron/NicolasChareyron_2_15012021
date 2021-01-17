@@ -2,24 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="P2_Chareyron_Nicolas.CSS".css" />
         <title>Reservia - Trouver votre hébergement pour des vacances de rêve</title>
 </head>
 <body>
     <header>
         <div id="logo_menuvav">
-            <img src="images/Reservia@3x.png" alt="logo_Reservia" />
-            <nav id="menu">
+            <figure>
+                <img src="images/Reservia@3x.png" alt="logo_Reservia" width="100px">
+            </figure>
+            <nav>
                 <p><a href="#Hébergements">Hébergements</a></p>
                 <p><a href="#Activités">Activités</a></p>
                 <p><a href="page_inscription.html">S'inscrire</a></p> 
                 <!-- le fichier page_inscription.html n'est pas disponible pour le moment-->  
             </nav>
         </div>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre ville ou en pleine nature</h2>
 
         <form method="post" action="rechercher.php"> <!-- le fichier recherche n'est pas disponible pour le moment-->
-            <div id:"rechercher">
+            <div id="rechercher">
                 <p><img src="images/pointeur.png" alt="icone_pointeur"></p>
                 <p><input type="text" name="rechercher" id="rechercher" value="Marseille,France"></p>
                 <p><input type="submit" value="Rechercher"></p>
@@ -47,7 +50,7 @@
             </p>        
         </div>
 
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            <p><img src="images/info.png" alt="icone_infos">   Plus de 500 logements sont disponibles dans cette ville</p>
 
 
     </header>
