@@ -1,0 +1,67 @@
+@font-face
+{
+    font-family: 'raleway';
+    src: url(fonts/Raleway/Raleway-VariableFont_wght.ttf);    
+}
+
+
+
+body
+{
+    font-family: raleway,sherif;
+}
+
+
+header, p, h1, h2
+{
+    border: 1px solid black;
+}
+
+
+#logo_menuvav
+{
+    display: flex;
+    justify-content:space-between ;
+    position: relative;
+    left: -40px;
+    top: 20px;
+    align-items:space-between;
+
+}
+nav
+{
+    display: flex;
+    justify-content:space-between;
+    width: 400px;  
+    position: relative;
+    right: -40px;
+    top: 20px;
+}
+
+nav+p
+{
+    text-align: end;
+}
+
+#titre
+{
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+#titre + h2
+{
+    font-size: 0.8em;
+}
+
+#rechercher
+{
+    display: flex;
+    width: 150px;
+    height: 30px;
+}
+#zone_filtres
+{
+    display: flex;
+}
