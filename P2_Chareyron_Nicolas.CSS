@@ -3,6 +3,7 @@
     font-family: 'raleway';
     src: url(fonts/Raleway/Raleway-VariableFont_wght.ttf);
 }
+
 @font-face
 {    
     font-family: 'raleway-bold';
@@ -12,7 +13,8 @@
 body
 {
     font-family: raleway,sherif;
-    margin-left: 60px;
+    margin-left: 55px;
+    width: 1340px;
 }
 
 #logo_menuvav
@@ -29,14 +31,20 @@ body
 nav
 {
     display: flex;
-    justify-content:space-between;
-    font-size: 1em;
-    width: 400px;  
+    justify-content:space-around;
+    font-size: 16px;
+    width: 440px;  
+    height: 50px;
     position: relative;
     right: -40px;
     top: 20px;
+    border: 1px solid black;
 }
 
+nav a
+{
+    text-decoration: none;
+}
 nav+p
 {
     text-align: end;
@@ -44,7 +52,7 @@ nav+p
 
 #titre
 {
-    font-size: 1.4em;
+    font-size: 22px;
     font-family: 'raleway-bold', raleway,serif;
     margin-bottom: -5px;
     width: 800px;
@@ -59,29 +67,37 @@ nav+p
 #zone_rechercher
 {
     display: flex;
-    max-width: 425px;
+    max-width: 600px;
     height: 50px;
     align-items: center;
     padding-bottom: 0px;
-    border: 1px solid #f2f2f2;
+    
+    margin-top: 30px;
 }
 
 #icone_position
 {
-    position: relative;
-    left:15px;
-    box-sizing:border-box;
-    right: 50px;
+    margin-left: 0px;
+    font-size: 17px;
+    border: 1px solid #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 15px 18px 15px 18px;
+    background-color: #f2f2f2;
 }
 
 .rechercher
 {
     border: none;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'raleway-bold',raleway,serif;
     text-align: left;
-    width: 250px;
-    margin-left: 40px;
+    width: 215px;
+    margin-left: 0px;
+    padding-left: 15px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    height: 46px;
 }
 
 .bouton_rechercher
@@ -92,42 +108,121 @@ nav+p
     font-size: 1em;
     color: white;
     height: 50px;
-    width: 120px;
+    width: 135px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 #zone_filtre
 {
     display: flex;
-    width: 900px;
-    height: 75px;
+    width: 1000px;
     justify-content: space-between;
     font-family: 'raleway-bold',serif;
-    font-size: 1em;
-    align-items: center;
-    border: 1px solid black;
+    margin-top: 30px;
     
-    
+}
+
+#titre_filtre
+{
+    margin-right: 10px;
 }
 
 #zone_filtre i
 {
-    
-    width: 50px;
-    height: 50px;
-    border-radius: 100px;
+    width: 45px;
+    height: 33px;
+    font-size: 1.2em;
+    border-radius: 28px;
     background-color: #deebff;
     color: #0065fc;
+    padding-top: 11px;
+    text-align: center;
     align-items: center;
-
+    border: 1px solid black;
+    margin-right: 10px;
+    
 }
 
-#filtre1
+#zone_filtre p
 {
-    border: 3px solid #f2f2f2;
-    height: 40px;
-    border-radius: 100px;
     font-size: 1.2em;
+    padding-right: 20px;
+    padding: auto;
+    margin: auto;
+    text-align: center;
     align-items: center;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 28px;
+}
+
+#infos
+{
+    display: flex;
+    margin-top: 25px;
+}
+
+#infos i
+{
+    margin-right: 20px;
+    border: 1px solid #deebff;
+    border-radius: 13px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+    font-size: 1em;
+    color:#0065fc
+}
+
+#Hébergements
+{
+    font-family: 'raleway-bold','raleway',serif;
+    font-size: 1.3em;
+}
+
+section
+{
+    margin-left: 40px;
+}
+
+#Hebergement_a_marseille
+{
+    border: 1px solid black;
+    width: 900px;
     
+}
+
+.image
+{
+    background-size: cover;
+    width: 250px;
+    height: 120px;
+    
+    
+}
+
+#ligne1
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+#ligne1 div
+{
+    border: 1px solid black;
+}
+
+#ligne2
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#ligne2 div
+{
+    border: 1px solid black;
 }
 
