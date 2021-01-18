@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="P2_Chareyron_Nicolas.CSS".css" />
         <title>Reservia - Trouver votre hébergement pour des vacances de rêve</title>
+        <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/all.css"/>
 </head>
 <body>
     <header>
         <div id="logo_menuvav">
             <figure>
-                <img src="images/Reservia@3x.png" alt="logo_Reservia" width="100px">
+                <img src="images/Reservia@3x.png" alt="logo_Reservia" width="95px">
             </figure>
             <nav>
                 <p><a href="#Hébergements">Hébergements</a></p>
@@ -22,32 +23,33 @@
         <h2>En plein centre ville ou en pleine nature</h2>
 
         <form method="post" action="rechercher.php"> <!-- le fichier recherche n'est pas disponible pour le moment-->
-            <div id="rechercher">
-                <p><img src="images/pointeur.png" alt="icone_pointeur"></p>
-                <p><input type="text" name="rechercher" id="rechercher" value="Marseille,France"></p>
-                <p><input type="submit" value="Rechercher"></p>
+            <div id="zone_rechercher">
+                <p id="icone_position"><i class="fas fa-map-marker-alt"></i></p>
+                <p><input type="text" name="rechercher" class="rechercher" value="Marseille,France"></p>
+                <p><input type="submit" value="Rechercher" class="bouton_rechercher"></p>
             </div>
         </form>
         
-        <div id="zone_filtres">
+        <div id="zone_filtre">
             <h3>Filtres</h3>
-            
-            <p id="filtre">
-                <img src="images/economique.png" alt="icone pour filtre tarif">
-                Economique             
+             
+            <p id="filtre1">
+                <i class="fas fa-money-bill-wave"></i>
+                    Economique
+            </p>   
+            <p id="filtre2">
+                <i class="fas fa-child"></i>
+                    Familial             
             </p>
-            <p id="filtre">
-                <img src="images/homme.png" alt="icone pour catégorie de client">
-                Familial             
+            <p id="filtre3">
+            <i class="fas fa-heart"></i>
+                    Romantique         
             </p>
-            <p id="filtre">
-                <img src="images/coeur.png" alt="icone pour type de séjour">
-                Romantique         
-            </p>
-            <p id="filtre">
-                <img src="images/chien.png" alt="icone pour accés aux animaux">
+            <p id="filtre4">
+            <i class="fas fa-dog"></i>
                 Animaux autorisés            
-            </p>        
+            </p>  
+                 
         </div>
 
             <p><img src="images/info.png" alt="icone_infos">   Plus de 500 logements sont disponibles dans cette ville</p>
