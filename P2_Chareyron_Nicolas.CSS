@@ -105,7 +105,7 @@ nav+p
     border: none;
     background-color:#0065fc;
     font-family: 'raleway-bold',raleway,serif;
-    font-size: 1em;
+    font-size: 1.1em;
     color: white;
     height: 50px;
     width: 135px;
@@ -116,23 +116,26 @@ nav+p
 #zone_filtre
 {
     display: flex;
-    width: 1000px;
-    justify-content: space-between;
+    width: auto;
+    
     font-family: 'raleway-bold',serif;
     margin-top: 30px;
+    margin-left: 7px;
+    border: 1px solid black;
     
 }
 
 #titre_filtre
 {
-    margin-right: 10px;
+    margin-right: 12px;
+    font-size: 1.1em;
 }
 
 #zone_filtre i
 {
     width: 45px;
     height: 33px;
-    font-size: 1.2em;
+    font-size: 1em;
     border-radius: 28px;
     background-color: #deebff;
     color: #0065fc;
@@ -141,14 +144,25 @@ nav+p
     align-items: center;
     border: 1px solid black;
     margin-right: 10px;
-    
+}
+
+#filtre1
+{
+    width: 170px;
+    display: flex;
+    padding-right: 50px;
+}
+
+#filtre2
+{
+    margin-right: 10px;
 }
 
 #zone_filtre p
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding-right: 20px;
-    padding: auto;
+    /*padding: auto;*/
     margin: auto;
     text-align: center;
     align-items: center;
@@ -197,6 +211,7 @@ section
 .image
 {
     background-size: cover;
+    background-position: center;
     width: 250px;
     height: 120px;
     
