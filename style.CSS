@@ -38,16 +38,38 @@ nav
     position: relative;
     right: -40px;
     top: 20px;
-    border: 1px solid black;
 }
 
 nav a
 {
     text-decoration: none;
+    color: black;
+
 }
+
 nav+p
 {
     text-align: end;
+}
+
+#hebergement:hover
+{
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+    padding-top:15px;
+}
+
+#activites:hover
+{
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+    padding-top:15px;
+}
+
+#inscription
+{
+    color: #0065fc;
+    font-family: 'raleway-bold','raleway',serif;
 }
 
 #titre
@@ -75,7 +97,7 @@ nav+p
     margin-top: 30px;
 }
 
-#icone_position
+span
 {
     margin-left: 0px;
     font-size: 17px;
@@ -113,62 +135,86 @@ nav+p
     border-bottom-right-radius: 15px;
 }
 
+
 #zone_filtre
 {
     display: flex;
-    width: auto;
-    
-    font-family: 'raleway-bold',serif;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 7px;
-    border: 1px solid black;
+}
+#titre_filtre
+{ 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: 'raleway-bold','raleway',serif;
+    font-size: 1.1em;
+    margin-right: 32px;
+}
+#economique, #familiale, #romantique, #animaux
+{
+    border: 2px solid #f2f2f2;
+    border-radius: 35px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#economique
+{
+    width: 190px;
+    margin-right: 24px;
+}
+
+#familiale
+{
+    width: 147px;
+    margin-right: 24px;
+}
+
+#romantique
+{
+    width: 180px;
+    margin-right: 24px;
+}
+
+#animaux
+{
+    width: 238px;
+}
+
+
+strong  i
+{
+    border: 1px solid #deebff;
+    background-color: #deebff;
+    height: 31px;
+    width: 45px;
+    font-size: 1.3em;
+    color: #0065fc;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 35px;
     
 }
-
-#titre_filtre
+em
 {
-    margin-right: 12px;
-    font-size: 1.1em;
-}
-
-#zone_filtre i
-{
-    width: 45px;
-    height: 33px;
-    font-size: 1em;
-    border-radius: 28px;
-    background-color: #deebff;
-    color: #0065fc;
-    padding-top: 11px;
-    text-align: center;
-    align-items: center;
-    border: 1px solid black;
-    margin-right: 10px;
-}
-
-#filtre1
-{
-    width: 170px;
-    display: flex;
-    padding-right: 50px;
-}
-
-#filtre2
-{
-    margin-right: 10px;
-}
-
-#zone_filtre p
-{
-    font-size: 1.1em;
-    padding-right: 20px;
-    /*padding: auto;*/
-    margin: auto;
-    text-align: center;
-    align-items: center;
     height: 45px;
-    border: 1px solid black;
-    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 13px;
+    font-family: 'raleway-bold','raleway,serif';
+    font-style: normal;
+    font-size: 1.1em;  
+}
+
+strong :hover
+{
+    background-color: #0065fc;
+    color: #deebff;
 }
 
 #infos
