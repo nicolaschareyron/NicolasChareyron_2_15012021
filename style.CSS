@@ -271,7 +271,7 @@ section
 {
     padding-top: 25px;
     margin-left: -40px;
-    border: 1px solid red;
+    
     border-radius: 20px;
     width: 870px;
     height: 600px;
@@ -374,7 +374,7 @@ section
 
 #ligne2
 {
-    border: 1px solid violet;
+    
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;   
@@ -420,8 +420,11 @@ section
 
 aside
 {
-    border: 1px solid blue;
+    
+    background-color: #f2f2f2;
+    border-radius: 20px;
     width: 382px;
+    height: 625px;
     margin-left: 43px;
     padding-left: 35px;
     
@@ -434,8 +437,12 @@ aside
     
     display: flex;
     width: 345px;
+    height: 144px;
     flex-wrap: wrap;
-    border: 1px solid blue;
+    border: 4px solid white;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: white;
     margin-bottom: 32px;
 
 }
@@ -460,7 +467,7 @@ aside
     background-size: cover;
     background-position: center;
     width: 131px;
-    height: 138px;
+    height: 144px;
     
 }
 .tarif_2
@@ -490,27 +497,44 @@ aside
 
 }
 
-/*.etoiles_2
+.etoiles_2
 {
-    border: 1px solid green;
+    
+    font-size: 0.8em;
     position: relative;
     left: 21px;
-    top: 35px;
-    font-size: 0.8em;*/
+    color: #0065fc;
 }
+
+#les_plus_populaires mark
+{
+    font-style: normal;
+    color: #f2f2f2;
+    background-color: white;
+    font-size: 0.8em;
+}
+        
+
 #les_plus_populaires a
 {
     color:#0065fc;
     font-style: normal;
+    
+    
 }
-
+#les_plus_populaires h1
+{
+    border: 1px solid red;
+    text-align: left;
+    margin-top: 40px;
+}
 
 
 aside h1
 {
     font-family: 'raleway-bold','raleway',serif;
     font-size: 1.4em;
-    margin-top: 47px;
-    padding-left: 38px;
+    margin-top: 38px;
+    
 }
 
