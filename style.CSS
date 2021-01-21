@@ -17,6 +17,13 @@ body
     width: 1340px;
 }
 
+a:link
+{
+    text-decoration: none;
+    
+}
+/*HEADER*/
+
 #logo_menuvav
 {
     display: flex;
@@ -220,70 +227,290 @@ strong :hover
 #infos
 {
     display: flex;
-    margin-top: 25px;
+    margin-top: 17px;
+    width: 500px;
+    padding-bottom: 20px;
 }
-
+#texte_infos
+{
+    display: flex;
+    align-items: center;
+}
 #infos i
 {
-    margin-right: 20px;
+    margin-left: 7px;
+    margin-right: 10px;
     border: 1px solid #deebff;
     border-radius: 13px;
-    width: 25px;
+    width: 14px;
     height: 25px;
+    padding-left: 10px;
+    display: flex;
     text-align: center;
     align-items: center;
-    font-size: 1em;
+    font-size: 0.8em;
     color:#0065fc
 }
 
-#Hébergements
+/*zone "Hebergements à marseille" */
+
+#Hebergements
 {
     font-family: 'raleway-bold','raleway',serif;
-    font-size: 1.3em;
+    font-size: 1.4em;
+    padding-left:38px ;
 }
 
 section
 {
     margin-left: 40px;
+    /*font-style: normal;*/
 }
 
 #Hebergement_a_marseille
 {
-    border: 1px solid black;
-    width: 900px;
+    padding-top: 25px;
+    margin-left: -40px;
+    border: 1px solid red;
+    border-radius: 20px;
+    width: 870px;
+    height: 600px;
+    background-color: #f2f2f2;
     
 }
 
+.nom_hotel
+{
+    
+    color: black;
+    padding-left:13px;
+    font-family:'raleway-bold','raleway',serif;
+    font-size: 1em;
+    margin-top: 5px;
+    
+
+}
+
+.tarif
+{
+    
+    color: black;
+    padding-left: 13px;
+    margin-top: -31px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
 .image
 {
+    
     background-size: cover;
     background-position: center;
-    width: 250px;
-    height: 120px;
-    
-    
+    width: 240px;
+    height: 112px;
+    margin-bottom: 0px;   
 }
+
 
 #ligne1
 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 40px;
+    margin-bottom: 29px;   
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.image
+{
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
 }
 
 #ligne1 div
 {
-    border: 1px solid black;
+    border: 2px solid white;
+    background-color: white;
+    
+    margin-right: 0px;  
+  }
+.pastille
+{
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px #d6d5d5;
+    height: 192px;
+}
+
+
+#ligne1 a
+{
+    color:#0065fc;
+    font-style: normal;
+}
+
+.tarif p
+{
+    color: #0065fc;
+    
+    
+}
+.etoiles
+{
+    
+    font-size: 0.8em;
+    margin-top: -20px;
+    width: 100px;
+    margin-left: 13px;
+    margin-top: -14px;
+
+}
+
+#ligne1 mark
+{
+    font-style: normal;
+    color: #f2f2f2;
+    background-color: white;
+    font-size: 1em;
 }
 
 #ligne2
 {
+    border: 1px solid violet;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;   
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
-
 #ligne2 div
 {
-    border: 1px solid black;
+    border: 2px solid white;
+    background-color: white;
+    
+}
+
+#ligne2 a
+{
+    color:#0065fc;
+    font-style: normal;
+}
+
+#ligne2 mark
+{
+    font-style: normal;
+    color: #f2f2f2;
+    background-color: white;
+}
+
+#lien_afficher_plus a
+{
+    margin-left: 36px;
+    text-decoration: none;
+    color: black;
+    font-family: 'raleway-bold','raleway',serif;
+    font-size: 1.1em;
+}
+
+/* partie "les plus populaires" */
+
+section
+{
+    display: flex;
+}
+
+aside
+{
+    border: 1px solid blue;
+    width: 382px;
+    margin-left: 43px;
+    padding-left: 35px;
+    
+    
+    
+}
+
+.pastille_2
+{
+    
+    display: flex;
+    width: 345px;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    margin-bottom: 32px;
+
+}
+
+.image_2
+{
+    float: left;
+}
+
+.tarif_2 p
+{
+    color: #0065fc;
+    
+}
+.image_2
+{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.image_2
+{
+    background-size: cover;
+    background-position: center;
+    width: 131px;
+    height: 138px;
+    
+}
+.tarif_2
+{
+    
+    color: black;
+    padding-left: 13px;
+    margin-top: -28px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    
+    position: relative;
+    left: 21px;
+}
+.nom_hotel_2
+{
+    
+    color: black;
+    padding-left:13px;
+    font-family:'raleway-bold','raleway',serif;
+    font-size: 1em;
+    width: 370px;
+    
+    position: relative;
+    left: 21px;
+
+}
+
+/*.etoiles_2
+{
+    border: 1px solid green;
+    position: relative;
+    left: 21px;
+    top: 35px;
+    font-size: 0.8em;*/
+}
+#les_plus_populaires a
+{
+    color:#0065fc;
+    font-style: normal;
+}
+
+
+
+aside h1
+{
+    font-family: 'raleway-bold','raleway',serif;
+    font-size: 1.4em;
+    margin-top: 47px;
+    padding-left: 38px;
 }
 
