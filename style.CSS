@@ -12,7 +12,7 @@
 
 body
 {
-    font-family: raleway,sherif;
+    font-family: 'raleway',sherif;
     margin-left: 55px;
     width: 1340px;
 }
@@ -23,29 +23,39 @@ a:link
     
 }
 /*HEADER*/
-
-#logo_menuvav
+header
+{
+    border: 2px solid orange;
+}
+figure
+{
+    margin-left: 0px;
+}
+#logo_menunav
 {
     display: flex;
-    justify-content:space-between ;
+    justify-content:space-between ;  
+    align-items: center; 
     position: relative;
-    left: -40px;
-    top: 20px;
+    border: 1px solid green;
     align-items:space-between;
-    padding-bottom: 25px;
+    
+    height: 100px;
 }
 
 nav
 {
     display: flex;
-    justify-content:space-around;
-    font-size: 16px;
-    width: 440px;  
-    height: 50px;
-    position: relative;
-    right: -40px;
-    top: 20px;
+    justify-content:center;
+    align-items: center;
+    font-size: 1em;
+    width: 620px;  
+    height: 25px;
+    
+    border: 1px solid red;
 }
+
+
 
 nav a
 {
@@ -58,7 +68,16 @@ nav+p
 {
     text-align: end;
 }
-
+#hebergement
+{
+    padding-right: 35px;
+    padding-left: 35px;
+}
+#activites
+{
+    padding-right: 50px;
+    padding-left: 50px;
+}
 #hebergement:hover
 {
     border-top: 2px solid #0065fc;
@@ -81,16 +100,19 @@ nav+p
 
 #titre
 {
+    border: 1px solid pink;
     font-size: 22px;
-    font-family: 'raleway-bold', raleway,serif;
-    margin-bottom: -5px;
-    width: 800px;
+    font-family: 'raleway-bold','raleway',serif;
+    margin-top: auto;
+    width: 600px;
+    
 }
 
 #titre + h2
 {
     font-size: 1em;
     width: 500px;
+    font-family: 'Raleway', serif;
 }
 
 #zone_rechercher
@@ -166,6 +188,10 @@ span
     display: flex;
     align-items: center;
     text-align: center;
+}
+#decoupage
+{
+    display: flex;
 }
 #economique
 {
@@ -669,12 +695,14 @@ aside h1
 {
     
     margin-bottom: 0px;
-    padding-bottom: 0px;
+    padding-top: 0px;
+    /*padding-bottom: 0px;*/
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
+    
     
 
 }
@@ -778,7 +806,7 @@ footer a
 {
     display: flex;
     flex-direction: column;
-    line-height: 1em;
+    line-height: 1.2em;
     color: black;
     height: 150px;
     font-style: normal;
@@ -793,7 +821,7 @@ footer a
     position: relative;
     left: 220px;
     height: 150px;
-    line-height: 1em;
+    line-height: 1.2em;
     color: black;
 }
 
@@ -805,8 +833,119 @@ footer a
     position: relative;
     left: 520px;
     height: 150px;
-    line-height: 1em;
+    line-height: 1.2em;
 }
 
 
+@media all and (max-width: 1024px)
+{
+
+    body
+    {
+        width: auto;
+    }
+
+    #bloc_rechercher 
+      {
+          
+          position: relative;
+          left: 0px;
+          top: 60px;
+      }  
+      
+    #hebergement
+    {
+        position: relative;
+        left: -135px;
+        top: 50px;
+    }
+
+    #activites
+    {
+        position:relative;
+        left: -135px;
+        top: 50px;
+    }
+    #inscription
+    {
+        position: relative;
+        left: -210px;
+        top: 0px;
+    }
+    #hebergement:hover
+    {
+        border-bottom: 2px solid #0065fc;
+        border-top: white;
+        color: #0065fc;
+        padding-bottom:15px; 
+    }
+    #activites:hover
+    {
+        border-bottom: 2px solid #0065fc;
+        border-top: white;
+        color: #0065fc;
+        padding-bottom:15px;
+    }
+
+    #bloc_rechercher 
+      {         
+          position: relative;
+          left: 0px;
+          top: 60px;
+      }  
+    #titre
+    {
+        text-align: justify;
+        width: 300px;
+    }
+
+    .bouton_rechercher
+    {
+        width: 50px;
+        border-radius: 15px;
+    }
+
+    #zone_filtre
+    {
+        width: 300px;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+
+
+
+
+
+    #infos
+    {
+        position: relative;
+          left: 0px;
+          top: 250px;
+    }
+
+      #partie_centrale
+      {
+          
+          position: relative;
+          left: 0px;
+          top: 300px;
+      } 
+        
+      #activites_a_marseille
+      {
+          
+          position: relative;
+          left: 0px;
+          top: 300px;
+      } 
+      footer
+      {
+          
+          position: relative;
+          left: 0px;
+          top: 300px;
+      } 
+    
+}
     
