@@ -23,10 +23,7 @@ a:link
     
 }
 /*HEADER*/
-header
-{
-    border: 2px solid orange;
-}
+
 figure
 {
     margin-left: 0px;
@@ -37,7 +34,7 @@ figure
     justify-content:space-between ;  
     align-items: center; 
     position: relative;
-    border: 1px solid green;
+    
     align-items:space-between;
     
     height: 100px;
@@ -52,7 +49,7 @@ nav
     width: 620px;  
     height: 25px;
     
-    border: 1px solid red;
+    
 }
 
 
@@ -100,7 +97,7 @@ nav+p
 
 #titre
 {
-    border: 1px solid pink;
+    
     font-size: 22px;
     font-family: 'raleway-bold','raleway',serif;
     margin-top: auto;
@@ -912,7 +909,7 @@ footer a
         text-align: justify;
     }
 
-
+    
 
 
 
@@ -920,32 +917,103 @@ footer a
     #infos
     {
         position: relative;
-          left: 0px;
-          top: 250px;
-    }
-
-      #partie_centrale
-      {
-          
-          position: relative;
-          left: 0px;
-          top: 300px;
-      } 
+        left: 0px;
+        top: 0px;
+        width: 350px;
+    }     
+    aside
+    {
+        position: relative;
+        left: -440px;
+        top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid black;
         
-      #activites_a_marseille
+    }    
+    
+
+      #Hebergement_a_marseille
+      {
+        position: relative;
+        left: 0px;
+        top: 700px;
+        border: 1px solid green;
+        height: 1550px;
+        
+      }
+    #ligne1
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+        border:1px solid red;
+
+    height: 700px;
+    }
+    #ligne2
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 370px;
+        border:1px solid red;
+        height: 700px;
+        margin-top: -30px;
+    }
+    #activites_titre
+    {
+        border: 2px solid orange;
+        position: relative;
+          left: 0px;
+          top: 700px;
+    }
+      #activites_images
       {
           
           position: relative;
           left: 0px;
-          top: 300px;
+          top: 740px;
+          display: flex;
+          flex-direction: column;
+          width: 390px;
+          border: 2px solid red;
+          height: 2000px;
+          
       } 
       footer
       {
-          
+          display: flex;
+          flex-direction: column;
+          align-items:flex-start;
           position: relative;
           left: 0px;
-          top: 300px;
+          top: 2300px;
+          border: 2px solid blueviolet;
+          width: 370px;
+          height: 500px;
       } 
+
+      #a_propos
+      {
+          border: 1px solid black;
+          
+      }
+      #nos_hebergements
+      {
+          border: 1px solid red;
+          position: relative;
+          left: 0px;
+          top: 20px;
+      }
+      #assistance
+      {
+          border: 1px solid green;
+          position: relative;
+          left: 0px;
+          top: 10px;
+      }
     
 }
     
