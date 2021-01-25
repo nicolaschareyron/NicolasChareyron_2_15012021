@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.CSS".css" />
+    <link rel="stylesheet" href="style.css"/>
         <title>Reservia - Trouver votre hébergement pour des vacances de rêve</title>
         <link rel="stylesheet" href="fonts/fontawesome-free-5.15.1-web/css/all.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
 </head>
 <body>  
     <header>        
         <div id="logo_menunav">            
             <figure>                
-                <img src="images/Reservia@3x.png" alt="logo_Reservia" width="92px">            
+                <img src="images/Reservia@3x.png" alt="logo_Reservia" class="logo_reservia">            
             </figure>            
             <nav>                
                 <p><a id="hebergement" href="#Hebergement_a_marseille">Hébergements</a></p><br />
@@ -24,7 +24,7 @@
         <div id="bloc_rechercher">
         <h1 id="titre">Trouvez votre hébergement pour des vacances de rêve</h1>        
         <h2>En plein centre ville ou en pleine nature</h2>
-        <form method="post" action="">            
+        <form method="post" action="#">            
             <div id="zone_rechercher">               
                 <p id="icone_position"><span><i class="fas fa-map-marker-alt"></i></span></p>
                 <p><input type="text" name="rechercher" class="rechercher" value="Marseille, France"></p>
@@ -34,7 +34,7 @@
         <div id="zone_filtre">           
             <p id="titre_filtre">Filtres</p>  
         <div id="decoupage">                                 
-            <p id="economique"><strong><i class="fas fa-money-bill-wave"></i></strong><em>&#201conomique</em></p>            
+            <p id="economique"><strong><i class="fas fa-money-bill-wave"></i></strong><em>Économique</em></p>            
             <p id="familiale"><strong><i class="fas fa-child"></i></strong><em>Familiale</em></p>                             
         </div>    
             <p id="romantique"><strong><i class="fas fa-heart"></i></strong><em>Romantique</em></p>                    
@@ -49,7 +49,7 @@
     </header>    
     <section id="partie_centrale">
         <article id="Hebergement_a_marseille">            
-            <h1 id="Hebergements">Hébergements à Marseille</h1>
+            <h3 id="Hebergements">Hébergements à Marseille</h3>
         <div id="ligne1">            
             <div class="pastille">                 
                 <a href="">
@@ -108,8 +108,9 @@
         </article>
         <aside>
             <div id="les_plus_populaires">                
-                    <h1>Les plus populaires<i class="fas fa-chart-line"></i>
-                    </h1>                                                        
+                    <h3>Les plus populaires<i class="fas fa-chart-line"></i>
+                    </h3>   
+                                                               
             <div class="pastille_2">                
                 <a href="">
                 <div class="image_2" style="background-image:url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg)"></div>
@@ -133,7 +134,8 @@
                 <p class="tarif_2">Nuit à partir de 68<strong>€</strong></p><br />
                 <p class="etoiles_2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><mark><i class="fas fa-star"></i></mark></p>
                 </a>            
-            </div>        
+            </div> 
+            </div>       
         </aside>    
     </section>
     <article id="activites_a_marseille">
