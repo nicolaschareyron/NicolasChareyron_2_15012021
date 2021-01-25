@@ -160,7 +160,18 @@ span
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-
+.bouton_rechercher_2
+{
+    border: none;
+    background-color:#0065fc;
+    font-family: 'raleway-bold',raleway,serif;
+    font-size: 1.1em;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: none;
+}
 
 #zone_filtre
 {
@@ -443,25 +454,23 @@ section
 {
     display: flex;
     
+    
 }
 
 aside
-{
-    
+{    
     background-color: #f2f2f2;
     border-radius: 20px;
     width: 382px;
     height: 625px;
     margin-left: 43px;
-    padding-left: 35px;
+    padding-left: 35px;   
     
-    
-    
+    padding-top: 8px;
 }
 
 .pastille_2
-{
-    
+{    
     display: flex;
     width: 345px;
     height: 144px;
@@ -470,7 +479,7 @@ aside
     border-radius: 20px;
     border-top-left-radius: 20px;
     background-color: white;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
     box-shadow: 5px 5px 15px #d6d5d5;
 }
 
@@ -485,8 +494,7 @@ aside
 
 .tarif_2 p
 {
-    color: #0065fc;
-    
+    color: #0065fc;    
 }
 .image_2
 {
@@ -866,7 +874,7 @@ footer a
     #inscription
     {
         position: relative;
-        left: -210px;
+        left: -140px;
         top: 0px;
     }
     #hebergement:hover
@@ -900,7 +908,13 @@ footer a
     {
         width: 50px;
         border-radius: 15px;
+        display: none;
     }
+    .bouton_rechercher_2
+    {
+        display: inline;
+    }
+
 
     #zone_filtre
     {
@@ -908,12 +922,6 @@ footer a
         flex-direction: column;
         text-align: justify;
     }
-
-    
-
-
-
-
     #infos
     {
         position: relative;
@@ -927,20 +935,21 @@ footer a
         left: -440px;
         top: 60px;
         padding-left: 20px;
-        padding-right: 20px;
-        border: 1px solid black;
-        
+        padding-right: 20px;       
     }    
-    
-
       #Hebergement_a_marseille
       {
         position: relative;
         left: 0px;
         top: 700px;
-        border: 1px solid green;
         height: 1550px;
         
+          background-color: white;
+      }
+      #Hebergements
+      {
+          position: relative;
+          left: -20px;
       }
     #ligne1
     {
@@ -948,7 +957,7 @@ footer a
         flex-direction: column;
         align-items: center;
         width: 370px;
-        border:1px solid red;
+        
 
     height: 700px;
     }
@@ -958,13 +967,38 @@ footer a
         flex-direction: column;
         align-items: center;
         width: 370px;
-        border:1px solid red;
+        
         height: 700px;
         margin-top: -30px;
     }
+
+    .image
+    {  
+        background-size: cover;
+        background-position: center;
+        width: 360px;
+        height: 112px;
+        margin-bottom: 0px;   
+
+    }
+    .image_3, .image_4, .image_5, .image_6, .image_7, .image_8
+    {  
+        background-size: cover;
+        background-position: center;
+        width: 390px;
+        height: 130px;
+        margin-bottom: 0px;   
+        background-position: center;
+    }
+    
+    #vieux_port, #fort, #frioul, #calanques, #notre_dame, #longchamp
+    {
+        height: 180px;
+    }
+    
     #activites_titre
     {
-        border: 2px solid orange;
+        
         position: relative;
           left: 0px;
           top: 700px;
@@ -977,11 +1011,18 @@ footer a
           top: 740px;
           display: flex;
           flex-direction: column;
+          justify-content: space-between;
           width: 390px;
-          border: 2px solid red;
-          height: 2000px;
+          
+          height: 1300px;
           
       } 
+      #colonne_2, #colonne_4
+      {
+          
+          height: 400px;
+      }
+      
       footer
       {
           display: flex;
@@ -989,27 +1030,26 @@ footer a
           align-items:flex-start;
           position: relative;
           left: 0px;
-          top: 2300px;
-          border: 2px solid blueviolet;
+          top: 1550px;
+          
           width: 370px;
           height: 500px;
       } 
 
-      #a_propos
+      footer
       {
-          border: 1px solid black;
-          
+          width: 450px;
       }
       #nos_hebergements
       {
-          border: 1px solid red;
+          
           position: relative;
           left: 0px;
           top: 20px;
       }
       #assistance
       {
-          border: 1px solid green;
+          
           position: relative;
           left: 0px;
           top: 10px;
