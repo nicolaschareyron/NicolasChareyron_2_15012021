@@ -13,8 +13,9 @@
 body
 {
     font-family: 'raleway',sherif;
-    margin-left: 55px;
+    margin: auto;
     width: 1340px;
+   
 }
 
 a:link
@@ -24,9 +25,11 @@ a:link
 }
 /*HEADER*/
 
-figure
+.logo_reservia
 {
-    margin-left: 0px;
+    margin-left: -40px;
+    width: 92px;
+    
 }
 #logo_menunav
 {
@@ -561,7 +564,7 @@ aside
     
     
 }
-#les_plus_populaires h1
+#les_plus_populaires h3
 {
     
     text-align: left;
@@ -571,7 +574,7 @@ aside
 }
 
 
-aside h1
+aside h3
 {
     font-family: 'raleway-bold','raleway',serif;
     font-size: 1.4em;
@@ -848,6 +851,9 @@ footer a
     body
     {
         width: auto;
+        max-width: 420px;
+        height: 5000px;
+        padding: auto;
     }
 
     #bloc_rechercher 
@@ -861,8 +867,15 @@ footer a
     #hebergement
     {
         position: relative;
-        left: -135px;
+        left: -132px;
         top: 50px;
+        
+        padding-right: 55px;
+        padding-left: 50px;
+        margin-right: 0px;
+        padding-bottom: 15px;
+        width: 210px;
+        border-bottom: 3px solid #f2f2f2;
     }
 
     #activites
@@ -870,23 +883,31 @@ footer a
         position:relative;
         left: -135px;
         top: 50px;
+        
+       padding-left: 70px;
+       padding-right: 70px;
+       padding-bottom: 15px;
+       margin-left: 0px;
+        width: 210px;
+        border-bottom: 3px solid #f2f2f2;
     }
     #inscription
     {
         position: relative;
-        left: -140px;
+        left: -210px;
         top: 0px;
+       
     }
     #hebergement:hover
     {
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         border-top: white;
         color: #0065fc;
         padding-bottom:15px; 
     }
     #activites:hover
     {
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         border-top: white;
         color: #0065fc;
         padding-bottom:15px;
@@ -900,7 +921,7 @@ footer a
       }  
     #titre
     {
-        text-align: justify;
+        text-align: left;
         width: 300px;
     }
 
@@ -955,7 +976,7 @@ footer a
     {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         width: 370px;
         
 
@@ -985,7 +1006,7 @@ footer a
     {  
         background-size: cover;
         background-position: center;
-        width: 390px;
+        width: 381px;
         height: 130px;
         margin-bottom: 0px;   
         background-position: center;
@@ -995,7 +1016,10 @@ footer a
     {
         height: 180px;
     }
-    
+    #activites_a_marseille
+    {
+        margin-left: 15px;
+    }
     #activites_titre
     {
         
@@ -1012,7 +1036,7 @@ footer a
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          width: 390px;
+          width: 381px;
           
           height: 1300px;
           
@@ -1031,15 +1055,13 @@ footer a
           position: relative;
           left: 0px;
           top: 1550px;
-          
-          width: 370px;
+          margin-left: 0px;
+          padding-left: 20px;
+          width: 390px;
           height: 500px;
       } 
 
-      footer
-      {
-          width: 450px;
-      }
+      
       #nos_hebergements
       {
           
