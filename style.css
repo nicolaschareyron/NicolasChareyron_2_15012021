@@ -857,6 +857,7 @@ footer a
         max-width: 420px;
         height: 5000px;
         padding: auto;
+        overflow-x: hidden;
     }
 
     .logo_reservia
