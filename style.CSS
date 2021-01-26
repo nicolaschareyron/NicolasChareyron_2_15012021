@@ -27,6 +27,11 @@ a:link
 figure
 {
     margin-left: 0px;
+        
+}
+.logo_reservia
+{
+    width: 92px;
 }
 #logo_menunav
 {
@@ -561,7 +566,7 @@ aside
     
     
 }
-#les_plus_populaires h1
+#les_plus_populaires h3
 {
     
     text-align: left;
@@ -571,7 +576,7 @@ aside
 }
 
 
-aside h1
+aside h3
 {
     font-family: 'raleway-bold','raleway',serif;
     font-size: 1.4em;
