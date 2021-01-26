@@ -851,13 +851,15 @@ footer a
 @media all and (max-width: 1024px)
 {
 
+
     body
     {
-        width: auto;
+        /*width: auto;*/
         max-width: 420px;
         height: 5000px;
         padding: auto;
         overflow-x: hidden;
+        scroll-margin-block: 0px;
     }
 
     .logo_reservia
@@ -930,7 +932,7 @@ footer a
     #titre
     {
         text-align: left;
-        width: 300px;
+        width: 380px;
     }
 
     .bouton_rechercher
