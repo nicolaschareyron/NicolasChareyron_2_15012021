@@ -30,12 +30,10 @@ a:link
     margin-left: 0px;
     /* test pour commit et push*/
     border: 1px solid black;
+    width: 92px;
         
 }
-.logo_reservia
-{
-    width: 92px;
-}
+
 #logo_menunav
 {
     display: flex;
