@@ -15,7 +15,7 @@ body
     font-family: 'raleway',sherif;
     margin: auto;
     width: 1340px;
-   
+    overflow-x: hidden;
 }
 
 a:link
@@ -859,6 +859,10 @@ footer a
         padding: auto;
     }
 
+    .logo_reservia
+    {
+        margin-left: -40px;
+    }
     #bloc_rechercher 
       {
           
@@ -870,7 +874,7 @@ footer a
     #hebergement
     {
         position: relative;
-        left: -132px;
+        left: -150px;
         top: 50px;
         
         padding-right: 55px;
@@ -884,7 +888,7 @@ footer a
     #activites
     {
         position:relative;
-        left: -135px;
+        left: -150px;
         top: 50px;
         
        padding-left: 70px;
@@ -897,7 +901,7 @@ footer a
     #inscription
     {
         position: relative;
-        left: -210px;
+        left: -240px;
         top: 0px;
        
     }
