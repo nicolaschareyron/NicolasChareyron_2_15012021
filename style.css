@@ -757,7 +757,7 @@ footer a
 {
     header {
         justify-content: space-between;
-        /*flex-wrap: wrap;*/
+        flex-wrap: wrap;
     }
     header .logo_reservia 
     {
@@ -821,7 +821,7 @@ footer a
     #inscription
     {
         position: relative;
-        left: -240px;
+        left: -260px;
         top: 0px;
     }
     
