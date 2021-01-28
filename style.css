@@ -757,7 +757,7 @@ footer a
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    header .logo {
+    header .logo_reservia {
         order: 1;
     }
 
@@ -771,10 +771,10 @@ footer a
         order: 2;
         padding-top: 15px;
     }
-  }
-/*@media all and (max-width: 1024px)*/ls 
+  /*}
+@media all and (max-width: 1024px)
 
-{
+{*/
 
     body
     {
@@ -849,7 +849,7 @@ footer a
     {
         text-align: left;
         width: 380px;
-    :}
+    }
 
     .bouton_rechercher
     {
