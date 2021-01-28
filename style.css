@@ -280,6 +280,8 @@ strong :hover
 
 /*  zone "Hebergements à marseille"     */
 
+
+
 #Hebergements
 {
     font-family: 'raleway-bold','raleway',serif;
@@ -405,6 +407,10 @@ section
     color: black;
     font-family: 'raleway-bold','raleway',serif;
     font-size: 1.1em;
+}
+#test
+{
+    display: flex;
 }
 
 /*  partie "les plus populaires"    */
@@ -746,7 +752,27 @@ footer a
     line-height: 1.2em;
 }
 
-@media all and (max-width: 1024px)
+@media only screen and (max-width: 600px) {
+    header {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    header .logo {
+        order: 1;
+    }
+
+    header nav {
+        order: 3;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    header .inscription {
+        order: 2;
+        padding-top: 15px;
+    }
+  }
+/*@media all and (max-width: 1024px)*/
 
 {
 
@@ -758,10 +784,10 @@ footer a
         padding: auto;
     }
 
-    .logo_reservia
+    /*.logo_reservia
     {
         margin-left: -20px;
-    }
+    }*/
 
     #bloc_rechercher 
     {
@@ -800,7 +826,7 @@ footer a
     #inscription
     {
         position: relative;
-        left: -240px;
+        left: -340px;
         top: 0px;
     }
     
@@ -823,7 +849,7 @@ footer a
     {
         text-align: left;
         width: 380px;
-    }
+    :}
 
     .bouton_rechercher
     {
@@ -855,7 +881,7 @@ footer a
     aside
     {
         position: relative;
-        left: -440px;
+        left: -900px;
         top: 60px;
         padding-left: 20px;
         padding-right: 20px;       
