@@ -20,22 +20,21 @@ a:link
     text-decoration: none;
 }
 
-/*  CODE CSS POUR LE HEADER */
+
 
 .logo_reservia
 {
-    margin-left: 0px;
+    margin-left: -40px;
     width: 92px;        
 }
 
 #logo_menunav
 {
     display: flex;
-    justify-content:space-between ;  
-    align-items: center; 
-    position: relative;
-    align-items:space-between;
-    height: 100px;
+    justify-content:space-between ;
+    height: 55px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 nav
@@ -45,18 +44,17 @@ nav
     align-items: center;
     font-size: 1em;
     width: 620px;  
-    height: 25px;
+    height: 55px;
 }
 
-nav a
+#hebergement, #activites
 {
+    display: flex;
     text-decoration: none;
     color: black;
-}
-
-nav+p
-{
-    text-align: end;
+    height: 55px;
+    align-items: center;
+    
 }
 
 #hebergement
@@ -67,7 +65,7 @@ nav+p
 
 #activites
 {
-    padding-right: 50px;
+    padding-right: 70px;
     padding-left: 50px;
 }
 
@@ -75,7 +73,7 @@ nav+p
 {
     border-top: 2px solid #0065fc;
     color: #0065fc;
-    padding-top:15px;
+    /*padding-top:15px;*/
 }
 
 #inscription
@@ -761,18 +759,18 @@ footer a
     }
     header .logo_reservia 
     {
-        order: 1;
+        /*order: 1;*/
     }
 
     header nav 
     {
-        order: 3;
+        /*order: 3;*/
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
     header .inscription {
-        order: 2;
+        /*order: 2;*/
         padding-top: 15px;
     }
  
@@ -782,6 +780,7 @@ footer a
         max-width: 420px;
         height: 5000px;
         padding: auto;
+        margin-left: 5px;
     }
 
     #bloc_rechercher 
@@ -984,16 +983,20 @@ footer a
 
     #nos_hebergements
     {
+        
         position: relative;
         left: 0px;
-        top: 20px;
+        top: 40px;
+       
+        height: 150px;
     }
     
     #assistance
       {
         position: relative;
         left: 0px;
-        top: 10px;
+        top: 50px;
+       
       }
 }
     
