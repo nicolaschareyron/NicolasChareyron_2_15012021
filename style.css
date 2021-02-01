@@ -21,6 +21,7 @@ body
 a:link
 {
     text-decoration: none;
+    
 }
 
 
@@ -478,7 +479,7 @@ aside
     padding-left:13px;
     font-family:'raleway-bold','raleway',serif;
     font-size: 1em;
-    width: 370px;
+    /*width: 370px;*/
 }
 
 .etoiles_2
