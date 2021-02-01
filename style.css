@@ -759,7 +759,9 @@ footer a
     }
     header .logo_reservia 
     {
-        /*order: 1;*/
+        order: 1;
+       
+        margin-top: -15px;
     }
 
     header nav 
