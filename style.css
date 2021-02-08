@@ -8,6 +8,8 @@
     font-family: 'raleway-bold';
     src: url(fonts/Raleway/Raleway-Bold.ttf);    
 }
+
+
 body
 {
     font-family: 'raleway',sherif;
@@ -16,32 +18,30 @@ body
     margin-top: 5px;
 }
 
-/**
-{border: 1px solid black;}*/
-
 a:link
 {
     text-decoration: none;
-    
 }
 
-
-.logo{
+.logo 
+{
     flex-grow: 1;
 }
+
 .logo_reservia
 {
-   
     width: 92px;        
 }
 
-header{
+header
+{
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
 }
 
-header nav{
+header nav
+{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,6 @@ header nav{
 
 #hebergement, #activites
 {
-    
     text-decoration: none;
     color: black;
     height: 55px;
@@ -79,7 +78,6 @@ header nav{
 {
     border-top: 2px solid #0065fc;
     color: #0065fc;
-   
 }
 
 #inscription
@@ -281,9 +279,7 @@ strong :hover
     color:#0065fc
 }
 
-/*  zone "Hebergements à marseille"     */
-
-
+/*  --------   zone "Hebergements à marseille"   ----------- */
 
 #Hebergements
 {
@@ -312,7 +308,6 @@ strong :hover
 
 .tarif
 {
-    
     color: black;
     padding-left: 13px;
     margin-top: -31px;
@@ -324,12 +319,10 @@ strong :hover
 .image
 {
     display: flex;
-    
     background-size: cover;
     background-position: center;
     width: 240px;
     height: 112px;
-    
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
@@ -338,7 +331,6 @@ strong :hover
 {
     display: flex;
     justify-content: space-around;
-   
     margin-bottom: 29px;   
     padding-left: 15px;
     padding-right: 15px;
@@ -352,12 +344,10 @@ strong :hover
 
 .pastille
 {
-    
     border-radius: 25px;
     box-shadow: 5px 5px 15px #d6d5d5;
     height: 205px;
     display: flex;
-
 }
 
 .pastille strong
@@ -414,9 +404,8 @@ strong :hover
 {
     display: flex;
     flex-direction: row;
-    
 }
-/*  partie "les plus populaires"    */
+/* ---------------- partie "les plus populaires" ----------------- */
 
 aside
 {    
@@ -486,6 +475,8 @@ aside
     font-family:'raleway-bold','raleway',serif;
     font-size: 1em;
     width: 200px;   
+
+
 }
 
 .etoiles_2
@@ -528,7 +519,7 @@ aside h3
     align-items: center;
 }
 
-/*  activités à marseille    */
+/*  -----------------activités à marseille------------------    */
 
 #activites_a_marseille
 {
@@ -560,7 +551,6 @@ aside h3
     
 }
 
-
 .image_4
 {
     background-size: cover;
@@ -570,6 +560,7 @@ aside h3
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
+
 .image_5
 {
     background-size: cover;
@@ -600,7 +591,6 @@ aside h3
     border-top-right-radius: 20px;
 }
 
-
 .image_8
 {
     background-size: cover;
@@ -609,7 +599,6 @@ aside h3
     height: 156px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
 }
 
 .nom_activites
@@ -640,6 +629,7 @@ aside h3
     border-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
 }
+
 #calanques
 {
     height: 434px;
@@ -667,7 +657,7 @@ aside h3
     height: 434px;
 }
 
-/*  footer  */
+/*  ---------------------footer-----------------------  */
 
 footer
 {
@@ -676,7 +666,6 @@ footer
     background-color: #f2f2f2;
     height: 200px;
     margin-top: 65px;
-   
 }
 
 h3
@@ -711,15 +700,16 @@ footer a
     color: black;
     margin-right: 200px;
 }
+
 #assistance
 {
     display: flex;
     flex-direction: column;
     color: black;
-    
     height: 150px;
     line-height: 1.2em;
 }
+
 
 /*---------------------Responsive--------------------*/
 
@@ -727,6 +717,7 @@ footer a
 {
    
     header {
+
         justify-content: space-between;
         flex-wrap: wrap;
         height: auto;
@@ -831,6 +822,7 @@ footer a
         flex-direction: column;
         text-align: justify;
     }
+    
     #infos
     {
         width: 360px;
@@ -839,6 +831,7 @@ footer a
    
     #zone_tout_hebergement
     {
+        display: flex;
         flex-direction: column-reverse;
     }
     
@@ -873,7 +866,6 @@ footer a
         width: 370px;
         height: 700px;
         margin-top: -25px;
-       
     }
 
     .image
@@ -884,6 +876,7 @@ footer a
         height: 112px;
         margin-bottom: 0px;   
     }
+    
     .image_3, .image_4, .image_5, .image_6, .image_7, .image_8
     {  
         background-size: cover;
@@ -903,6 +896,7 @@ footer a
     {
         margin-left: 5px;
     }
+    
     #activites_images
     {
         display: flex;
@@ -927,11 +921,11 @@ footer a
         height: 650px;
        
     } 
+    
     #a_propos
     {
-        height: 170px;
-        margin-right: 0px;
+        height: 190px;
+        margin-right: 10px;
     }
-    
 }
     
