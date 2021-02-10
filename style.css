@@ -38,6 +38,7 @@ header
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+   
 }
 
 header nav
@@ -52,7 +53,7 @@ header nav
 {
     text-decoration: none;
     color: black;
-    height: 55px;
+    height: 20px;
     align-items: center;
    
    
@@ -82,7 +83,7 @@ header nav
 
 #inscription
 {
-    padding-top: 19px;
+    padding-top: 23px;
     color: #0065fc;
     font-family: 'raleway-bold','raleway',serif;
 }
@@ -91,7 +92,7 @@ header nav
 {
     font-size: 22px;
     font-family: 'raleway-bold','raleway',serif;
-    margin-top: auto;
+   
 }
 
 #titre + h2
@@ -290,10 +291,13 @@ strong :hover
 
 #Hebergement_a_marseille
 {
+    flex: 2;
+    
     padding-top: 25px;
+    
     margin-left: 0px;
     border-radius: 20px;
-    width: 870px;
+    
     background-color: #f2f2f2;
 }
 
@@ -321,7 +325,10 @@ strong :hover
     display: flex;
     background-size: cover;
     background-position: center;
+   
+    display: block;
     width: 240px;
+    
     height: 112px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -332,8 +339,7 @@ strong :hover
     display: flex;
     justify-content: space-around;
     margin-bottom: 29px;   
-    padding-left: 15px;
-    padding-right: 15px;
+    
 }
 
 #ligne1 div, #ligne2 div
@@ -346,8 +352,11 @@ strong :hover
 {
     border-radius: 25px;
     box-shadow: 5px 5px 15px #d6d5d5;
-    height: 205px;
+    
     display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .pastille strong
@@ -370,9 +379,12 @@ strong :hover
 {
     font-size: 0.8em;
     margin-top: -20px;
-    width: 100px;
+    
+    max-width: 100%;
     margin-left: 13px;
-    margin-top: -14px;
+   
+
+
 }
 
 #ligne1 mark, #ligne2 mark
@@ -387,18 +399,18 @@ strong :hover
 {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 40px;   
-    padding-left: 15px;
-    padding-right: 15px;
+   
 }
 
 #lien_afficher_plus a
 {
     margin-left: 36px;
+    margin-top: 20px;
     text-decoration: none;
     color: black;
     font-family: 'raleway-bold','raleway',serif;
     font-size: 1.1em;
+   
 }
 #zone_tout_hebergement
 {
@@ -411,19 +423,20 @@ aside
 {    
     background-color: #f2f2f2;
     border-radius: 20px;
-    width: 400px;
     height: 625px;
     margin-left: 43px;
-    padding-left: 35px;   
+    padding-left: 35px;  
+    padding-right: 43px; 
     padding-top: 8px;
-   
+   flex: 1;
 }
 
 .pastille_2
 {    
     display: flex;
-    width: 345px;
-    height: 144px;
+    /*width: 345px;*/
+    /*height: 144px;*/
+    max-width: 100%;
     flex-wrap: wrap;
     border: 4px solid white;
     border-radius: 20px;
@@ -450,7 +463,10 @@ aside
     background-size: cover;
     background-position: center;
     width: 131px;
+    
+    
     height: 144px;
+   
 }
 
 .tarif_2 p
@@ -474,8 +490,8 @@ aside
     padding-left:13px;
     font-family:'raleway-bold','raleway',serif;
     font-size: 1em;
-    width: 200px;   
-
+   
+    
 
 }
 
@@ -504,7 +520,7 @@ aside
 {
     text-align: left;
     margin-top: 40px;
-    width: 350px;
+    
     
     
 }
@@ -730,6 +746,7 @@ footer a
 
     .logo{
         padding-top: 18px;
+        margin-left: 15px;
     }
     
     header nav 
@@ -737,7 +754,7 @@ footer a
         margin-top: 25px;
         margin-bottom: 25px;
         order: 3;
-        width: 100%;
+        max-width: 100%;
         display: flex;
         justify-content: space-between;
        
@@ -756,9 +773,9 @@ footer a
     body
     {
         width: auto;
-        /*max-width: 400px;*/
-        padding: auto;
-        padding-left: 5px;
+      
+      
+     
       
     }
     
@@ -769,9 +786,10 @@ footer a
         padding-right: 55px;
         padding-left: 40px;
         margin-right: 0px;
-       
-       
+      
+       padding-bottom: 15px;
         border-bottom: 3px solid #f2f2f2;
+        max-width: 50%;
     }
 
     #activites
@@ -781,8 +799,9 @@ footer a
         padding-right: 60px;
        
         margin-left: 0px;
-        
+        padding-bottom: 15px;
         border-bottom: 3px solid #f2f2f2;
+        max-width: 50%;
     }
     
     #inscription
@@ -801,9 +820,18 @@ footer a
     #titre
     {
         text-align: left;
-        width: 380px;
+        margin-left: 15px;
+       max-width: 95%;
     }
-
+    #titre + h2
+    {
+        margin-left: 15px;
+        max-width: 100%;
+    }
+    #zone_rechercher
+    {
+        margin-left: 15px;
+    }
     .bouton_rechercher
     {
         width: 50px;
@@ -818,15 +846,17 @@ footer a
 
     #zone_filtre
     {
-        width: 300px;
+      
         flex-direction: column;
         text-align: justify;
+        margin-left: 15px;
     }
     
     #infos
     {
-        width: 360px;
+        max-width: 90%;
         text-align: justify;
+        padding-right: 15px;
     }
    
     #zone_tout_hebergement
@@ -837,51 +867,85 @@ footer a
     
     aside
     {     
-        padding-left: 10px;
-        padding-right: 0px;
-        margin-left: 0;  
-        width: 380px;  
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        margin-left: 0px;  
+        margin-right: 0px;
+        max-width: 100%;
+        border-radius: 0;
+      
     }    
     
     #Hebergement_a_marseille
     {
         background-color: white;
-        width: 100%;
-    }
+        max-width: 100%;
        
+       
+        padding-top: 10px;
+    }
+    
+    
+
     #ligne1
     {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 370px;
-        height: 700px;
+        
+       
+        width: 100%;
+      
+       
+    
     }
     
     #ligne2
     {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        width: 370px;
+       
+        
+       
+      
+        width: 100%;
+        
         height: 700px;
         margin-top: -25px;
+       
     }
 
-    .image
+    .pastille
+    {
+        max-width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+     
+    .pastille a
+    {
+         
+         width: 100%;
+    }
+
+    .pastille .image
     {  
+        
         background-size: cover;
-        background-position: center;
-        width: 360px;
-        height: 112px;
-        margin-bottom: 0px;   
+        background-position: center;     
+        width: 99%;     
+        margin-bottom: 0px;  
+        padding-right: 0px; 
+        
     }
     
     .image_3, .image_4, .image_5, .image_6, .image_7, .image_8
     {  
         background-size: cover;
         background-position: center;
-        width: 371px;
+       
+        width: 100%;
+        display: block;
         height: 130px;
         margin-bottom: 0px;   
         background-position: center;
@@ -890,11 +954,19 @@ footer a
     #vieux_port, #fort, #frioul, #calanques, #notre_dame, #longchamp
     {
         height: 180px;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      
     }
     
     #activites_a_marseille
     {
-        margin-left: 5px;
+        margin-left: 0px;
+        max-width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+       
     }
     
     #activites_images
@@ -902,30 +974,27 @@ footer a
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        width: 371px;
         height: 1300px;
     } 
     
-    #colonne_2, #colonne_4
-    {
-        height: 400px;
-    }
+    
       
     footer
     {
         display: flex;
         flex-direction: column;
-        width: 390px;
-        
-        padding-left: 5px;
-        height: 650px;
-       
+        max-width: 100%;
+        padding-left: 20px;
+        height: auto;
     } 
     
-    #a_propos
+    #a_propos, #nos_hebergements, #assistance
     {
-        height: 190px;
-        margin-right: 10px;
+        
+        
+       width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        
     }
 }
-    
