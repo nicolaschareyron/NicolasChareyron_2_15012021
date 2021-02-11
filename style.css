@@ -736,17 +736,24 @@ footer a
 
         justify-content: space-between;
         flex-wrap: wrap;
-        height: auto;
+        
+        
     }
-    header .logo_reservia 
+    .logo_reservia 
     {
         order: 1;
-        margin-top: -15px;
+        
+      
+        width: 35%;
     }
 
     .logo{
-        padding-top: 18px;
-        margin-left: 15px;
+        padding-top: 5px;
+        margin-left: 25px;
+        width: 50%;
+       
+        
+        
     }
     
     header nav 
@@ -754,54 +761,47 @@ footer a
         margin-top: 25px;
         margin-bottom: 25px;
         order: 3;
-        max-width: 100%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
-       
     }
 
-    header .logo{
-        width: 50%;
-    }
+   
     
     header .inscription {
         order: 2;
         width: 50%;
-        padding-top: 15px;
+        padding-top: 35px;
+      
     }
  
     body
     {
         width: auto;
-      
-      
-     
-      
     }
     
           
     #hebergement
     {
-      
-        padding-right: 55px;
-        padding-left: 40px;
-        margin-right: 0px;
-      
+      text-align: center;
        padding-bottom: 15px;
         border-bottom: 3px solid #f2f2f2;
-        max-width: 50%;
+        width: 50%;
+       padding-left: 0px;
+       padding-right: 0px;
     }
 
     #activites
     {
-        
-        padding-left: 60px;
-        padding-right: 60px;
+        text-align: center;
+      
        
-        margin-left: 0px;
+       padding-right: 0px;
+       padding-left: 0px;
         padding-bottom: 15px;
         border-bottom: 3px solid #f2f2f2;
-        max-width: 50%;
+        width: 50%;
+       
     }
     
     #inscription
@@ -881,8 +881,6 @@ footer a
     {
         background-color: white;
         max-width: 100%;
-       
-       
         padding-top: 10px;
     }
     
@@ -892,27 +890,16 @@ footer a
     {
         display: flex;
         flex-direction: column;
-        
-       
         width: 100%;
-      
-       
-    
     }
     
     #ligne2
     {
         display: flex;
         flex-direction: column;
-       
-        
-       
-      
         width: 100%;
-        
         height: 700px;
         margin-top: -25px;
-       
     }
 
     .pastille
@@ -929,21 +916,14 @@ footer a
     }
 
     .pastille .image
-    {  
-        
-        background-size: cover;
-        background-position: center;     
+    {        
         width: 99%;     
         margin-bottom: 0px;  
         padding-right: 0px; 
-        
     }
     
     .image_3, .image_4, .image_5, .image_6, .image_7, .image_8
     {  
-        background-size: cover;
-        background-position: center;
-       
         width: 100%;
         display: block;
         height: 130px;
@@ -957,7 +937,6 @@ footer a
         width: 100%;
         margin-bottom: 20px;
         margin-top: 20px;
-      
     }
     
     #activites_a_marseille
