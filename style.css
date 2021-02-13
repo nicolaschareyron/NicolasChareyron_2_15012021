@@ -490,9 +490,6 @@ aside
     padding-left:13px;
     font-family:'raleway-bold','raleway',serif;
     font-size: 1em;
-   
-    
-
 }
 
 .etoiles_2
@@ -554,71 +551,12 @@ aside h3
 {
     display: flex;
     justify-content: space-between;
-}
-
-.image_3
-{
-    background-size: cover;
-    background-position: top;
-    width: 297px;
-    height: 388px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    
-}
-
-.image_4
-{
-    background-size: cover;
-    background-position: center;
-    width: 297px;
-    height: 214px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.image_5
-{
-    background-size: cover;
-    background-position: center;
-    width: 297px;
-    height: 100px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.image_6
-{
-    background-size: cover;
-    background-position: center;
-    width: 297px;
-    height: 180px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.image_7
-{
-    background-size: cover;
-    background-position: top;
-    width: 297px;
-    height: 136px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.image_8
-{
-    background-size: cover;
-    background-position: top;
-    width: 297px;
-    height: 156px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  
 }
 
 .nom_activites
 {
+    
     margin-top: 0px;
     margin-bottom: 5px;
     font-family: 'raleway-bold','raleway',serif;
@@ -629,42 +567,112 @@ aside h3
 
 #vieux_port
 {
-    height: 434px;
     border-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
+    padding-bottom: 10px;
 }
 
+#vieux_port div
+{
+    background-size: cover;
+    background-position: top;
+    width: 297px;
+ 
+  height: 90%;
+  display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
 #fort
 {
+    height: 60%;
     border-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
+    padding-bottom: 10px;
 }
 
+#fort div
+{
+    background-size: cover;
+    background-position: center;
+    width: 297px;
+  
+    height: 80%;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 #frioul
 {
+    margin-top: 20px;
+    height: 40%;
     border-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
+    padding-bottom: 10px;
 }
-
+#frioul div
+{
+    background-size: cover;
+    background-position: center;
+    width: 297px;
+    height: 73%;
+  display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 #calanques
 {
-    height: 434px;
+   
     border-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
+    padding-bottom: 10px;
 }
-
+#calanques div
+{
+    background-size: cover;
+    background-position: top;
+    width: 297px;
+    height: 90%;
+  display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
 #notre_dame
 {
+    height: 45%;
     border-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
+    padding-bottom: 10px;
 }
-
+#notre_dame div
+{
+    background-size: cover;
+    background-position: top;
+    width: 297px;
+    height: 79%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ 
+}
 #longchamp
 {
+    margin-top: 20px;
+    height: 45%;
     border-radius: 20px;
     box-shadow: 5px 5px 15px #d6d5d5;
+    padding-bottom: 10px;
 }
-
+#longchamp div
+{
+    background-size: cover;
+    background-position: top;
+    width: 297px;
+    height: 79%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 #colonne_2, #colonne_4
 {
     display: flex;
@@ -681,7 +689,12 @@ footer
     justify-content: flex-start;
     background-color: #f2f2f2;
     height: 200px;
+    margin-left: -40px;
+    padding-left: 40px;
     margin-top: 65px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 103%;
 }
 
 h3
@@ -922,17 +935,27 @@ footer a
         padding-right: 0px; 
     }
     
-    .image_3, .image_4, .image_5, .image_6, .image_7, .image_8
-    {  
-        width: 100%;
+  
+#vieux_port div, #fort div, #frioul div, #calanques div, #notre_dame div, #longchamp div
+{
+    width: 100%;
         display: block;
-        height: 130px;
+       
+        height: 80%;
         margin-bottom: 0px;   
+        padding-right: 0px;
+        padding-top: 0px;
+        background-size: cover;
         background-position: center;
-    }
+}
+#calanques
+{
+    padding-top: 30px;
+}
     
-    #vieux_port, #fort, #frioul, #calanques, #notre_dame, #longchamp
+    #vieux_port , #fort , #frioul , #calanques , #notre_dame , #longchamp 
     {
+        display: block;
         height: 180px;
         width: 100%;
         margin-bottom: 20px;
@@ -963,7 +986,7 @@ footer a
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        padding-left: 20px;
+        padding-left: 60px;
         height: auto;
     } 
     
