@@ -320,7 +320,8 @@ strong :hover
     margin-bottom: 5px;
 }
 
-.image
+
+.image_cannebiere
 {
     display: flex;
     background-size: cover;
@@ -332,6 +333,79 @@ strong :hover
     height: 112px;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+    
+    background-image:url(images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+.image_port
+{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+   
+    display: block;
+    width: 240px;
+    
+    height: 112px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-image:url(images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+.image_mouettes
+{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+   
+    display: block;
+    width: 240px;
+    
+    height: 112px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-image:url(images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+.image_hotel_mer
+{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+   
+    display: block;
+    width: 240px;
+    
+    height: 112px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-image:url(images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+.image_panier
+{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+   
+    display: block;
+    width: 240px;
+    
+    height: 112px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-image:url(images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+.image_amina
+{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+   
+    display: block;
+    width: 240px;
+    
+    height: 112px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    background-image:url(images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
 }
 
 #ligne1
@@ -456,19 +530,37 @@ aside
     display: flex;
 }
 
-.image_2
+
+.image_soleil_matin
 {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     background-size: cover;
     background-position: center;
     width: 131px;
-    
-    
     height: 144px;
-   
+    background-image:url(images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
 }
-
+.image_coeur_eau
+{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    width: 131px;
+    height: 144px;
+    background-image:url(images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+.image_bleu_blanc
+{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    width: 131px;
+    height: 144px;
+    background-image:url(images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
 .tarif_2 p
 {
     color: #0065fc;    
@@ -572,17 +664,18 @@ aside h3
     padding-bottom: 10px;
 }
 
-#vieux_port div
+.image_vieux_port
 {
     background-size: cover;
-    background-position: top;
+    background-position: center;
     width: 297px;
  
   height: 90%;
   display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
+    background-image:url(images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+   
 }
 #fort
 {
@@ -592,7 +685,8 @@ aside h3
     padding-bottom: 10px;
 }
 
-#fort div
+
+.image_pomegues
 {
     background-size: cover;
     background-position: center;
@@ -602,6 +696,8 @@ aside h3
     display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+   
+   background-image:url(images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 #frioul
 {
@@ -611,7 +707,7 @@ aside h3
     box-shadow: 5px 5px 15px #d6d5d5;
     padding-bottom: 10px;
 }
-#frioul div
+.image_frioul
 {
     background-size: cover;
     background-position: center;
@@ -620,6 +716,7 @@ aside h3
   display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    background-image:url(images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
 }
 #calanques
 {
@@ -628,7 +725,7 @@ aside h3
     box-shadow: 5px 5px 15px #d6d5d5;
     padding-bottom: 10px;
 }
-#calanques div
+.image_calanques
 {
     background-size: cover;
     background-position: top;
@@ -637,7 +734,7 @@ aside h3
   display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    
+    background-image:url(images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
 }
 #notre_dame
 {
@@ -646,7 +743,7 @@ aside h3
     box-shadow: 5px 5px 15px #d6d5d5;
     padding-bottom: 10px;
 }
-#notre_dame div
+.image_notre_dame
 {
     background-size: cover;
     background-position: top;
@@ -654,7 +751,7 @@ aside h3
     height: 79%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
- 
+    background-image:url(images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
 }
 #longchamp
 {
@@ -664,7 +761,7 @@ aside h3
     box-shadow: 5px 5px 15px #d6d5d5;
     padding-bottom: 10px;
 }
-#longchamp div
+.image_longchamp
 {
     background-size: cover;
     background-position: top;
@@ -672,6 +769,7 @@ aside h3
     height: 79%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    background-image:url(images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
 }
 #colonne_2, #colonne_4
 {
@@ -928,14 +1026,45 @@ footer a
          width: 100%;
     }
 
-    .pastille .image
-    {        
+    
+    .image_cannebiere
+    {
         width: 99%;     
         margin-bottom: 0px;  
         padding-right: 0px; 
     }
-    
-  
+  .image_port
+  {
+    width: 99%;     
+    margin-bottom: 0px;  
+    padding-right: 0px; 
+  }
+  .image_mouettes
+  {
+    width: 99%;     
+    margin-bottom: 0px;  
+    padding-right: 0px; 
+  }
+  .image_hotel_mer
+  {
+    width: 99%;     
+    margin-bottom: 0px;  
+    padding-right: 0px; 
+  }
+  .image_panier
+  {
+    width: 99%;     
+    margin-bottom: 0px;  
+    padding-right: 0px; 
+  }
+
+  .image_amina
+  {
+    width: 99%;     
+    margin-bottom: 0px;  
+    padding-right: 0px; 
+  }
+
 #vieux_port div, #fort div, #frioul div, #calanques div, #notre_dame div, #longchamp div
 {
     width: 100%;
